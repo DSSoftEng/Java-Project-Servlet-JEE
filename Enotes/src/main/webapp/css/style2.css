@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+/* Réinitialisation de quelques styles par défaut */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5; /* Fond de page légèrement gris */
+        }
+
+        /* Conteneur principal */
+        .container {
+            max-width: 400px;
+            margin: 5% auto;
+            padding: 20px;
+            background-color: white; /* Fond blanc pour le formulaire */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Légère ombre */
+            border-radius: 8px; /* Coins arrondis */
+        }
+
+        /* Style pour les tables */
+        table {
+            width: 100%; /* Largeur du formulaire */
+        }
+
+        /* Style pour les cellules des tables */
+        td {
+            padding: 10px;
+        }
+
+        /* Style pour les champs de saisie */
+        input[type="text"] {
+            width: calc(100% - 20px); /* Largeur complète moins la marge */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Style pour le bouton de soumission */
+        input[type="submit"] {
+            width: 100%; /* Largeur complète du conteneur */
+            padding: 10px;
+            background-color: #007BFF; /* Bleu élégant */
+            color: white; /* Texte blanc */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer; /* Changer le curseur en main */
+            font-weight: bold; /* Texte en gras */
+        }
+
+        /* Changer la couleur du bouton lorsqu'il est survolé */
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
